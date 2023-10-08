@@ -12,10 +12,9 @@ export class GalleryMarkupCreator {
 
     /**
      * create item li
-     * @param elem
      * @returns {HTMLLIElement}
      */
-    item(elem) {
+    item() {
         const galleryItem = document.createElement('li');
         galleryItem.classList.add('gallery__item');
         return galleryItem;

@@ -10,4 +10,4 @@ const galleryRef = document.querySelector('.gallery');
  */
 new GalleryMarkupCreator(galleryRef, false);
 
-const lightbox = new SimpleLightbox('.gallery a', {captionType: 'attr', captionsData: 'alt', captionDelay: 250});
+new SimpleLightbox('.gallery a', {captionType: 'attr', captionsData: 'alt', captionDelay: 250});
